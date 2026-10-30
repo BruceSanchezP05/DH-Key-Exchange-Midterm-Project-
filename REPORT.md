@@ -68,3 +68,8 @@ Ephemeral ECDH, also written ECDHE, means the participants use new key-agreement
 ECDH still needs authentication. Without authentication, Eve can replace the public key information in transit and create two different exchanges, just as she does against the unauthenticated finite-field DH demonstration. Digital signatures or another trusted authentication mechanism help prevent that substitution. The Ed25519 keys in our project are for **signing** and verifying identities, not for ECDH key agreement, even though both involve elliptic-curve techniques. These keys serve different purposes.
 
 Real applications should use tested cryptographic libraries, validated parameters, standard protocols, and careful handling of secrets instead of inventing a key-exchange protocol. For example, the IETF's EDHOC standard combines authenticated ephemeral Diffie-Hellman with other protocol protections. Our project is useful for understanding the main ideas, but it is not a secure production implementation.
+
+References:
+## References
+1. IETF. *RFC 9528: Ephemeral Diffie-Hellman Over COSE (EDHOC).* https://www.rfc-editor.org/rfc/rfc9528.html
+2. Cryptography Documentation. *Elliptic Curve Cryptography.* https://cryptography.io/en/stable/hazmat/primitives/asymmetric/ec/
