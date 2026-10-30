@@ -1,0 +1,31 @@
+test_bad_bit_sizes (test_math.PrimeAndGeneratorTests.test_bad_bit_sizes) ... ok
+test_factorization (test_math.PrimeAndGeneratorTests.test_factorization) ... ok
+test_generators (test_math.PrimeAndGeneratorTests.test_generators) ... ok
+test_prime_range (test_math.PrimeAndGeneratorTests.test_prime_range) ... ok
+test_received_bad_moduli (test_math.PrimeAndGeneratorTests.test_received_bad_moduli) ... ok
+test_against_reference_pow (test_math.SquareMultiplyTests.test_against_reference_pow) ... ok
+test_fixture (test_math.SquareMultiplyTests.test_fixture) ... ok
+test_invalid_inputs (test_math.SquareMultiplyTests.test_invalid_inputs) ... ok
+test_negative_base (test_math.SquareMultiplyTests.test_negative_base) ... ok
+test_zero_exponent (test_math.SquareMultiplyTests.test_zero_exponent) ... ok
+test_corrupt_signature (test_protocol.ProtocolTests.test_corrupt_signature) ... ok
+test_duplicate_finish (test_protocol.ProtocolTests.test_duplicate_finish) ... ok
+test_eve_signs_claiming_to_be_alice (test_protocol.ProtocolTests.test_eve_signs_claiming_to_be_alice) ... ok
+test_extra_fields_wrong_types_and_nonce (test_protocol.ProtocolTests.test_extra_fields_wrong_types_and_nonce) ... ok
+test_finish_tampering_and_abort (test_protocol.ProtocolTests.test_finish_tampering_and_abort) ... ok
+test_initial_message_has_no_private_values (test_protocol.ProtocolTests.test_initial_message_has_no_private_values) ... ok
+test_malformed_oversize_and_wrong_order (test_protocol.ProtocolTests.test_malformed_oversize_and_wrong_order) ... ok
+test_modify_identity_labels (test_protocol.ProtocolTests.test_modify_identity_labels) ... ok
+test_modify_p_or_g (test_protocol.ProtocolTests.test_modify_p_or_g) ... ok
+test_modify_public_a (test_protocol.ProtocolTests.test_modify_public_a) ... ok
+test_modify_public_b (test_protocol.ProtocolTests.test_modify_public_b) ... ok
+test_old_initiation_replay_is_cached (test_protocol.ProtocolTests.test_old_initiation_replay_is_cached) ... ok
+test_replay_old_finish_into_fresh_bob_session (test_protocol.ProtocolTests.test_replay_old_finish_into_fresh_bob_session) ... ok
+test_replay_old_response_into_fresh_alice_session (test_protocol.ProtocolTests.test_replay_old_response_into_fresh_alice_session) ... ok
+test_simple_attack_demonstrations (test_protocol.ProtocolTests.test_simple_attack_demonstrations) ... ok
+test_successful_fixture_and_generated (test_protocol.ProtocolTests.test_successful_fixture_and_generated) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 0.151s
+
+OK

@@ -1,0 +1,22 @@
+Libraries: cryptography 46.0.4; PyCryptodome 3.23.0
+=== Authenticated Diffie-Hellman ===
+Requested prime size: fixture p=23
+Modulus generated using library: fixture value
+Modulus bit length: 5
+Received modulus library validation: PASS
+Generator: validated
+Alice initiation signature: VALID
+Bob response signature: VALID
+Alice finish signature: VALID
+Transcript authenticated: YES
+Shared-secret equality in local test: PASS
+Explicit key confirmation: NOT IMPLEMENTED
+CLASSROOM DEBUG ONLY - NEVER TRANSMITTED:
+Alice local shared secret: 2
+Bob local shared secret: 2
+
+=== Eve: no authentication (p=23 fixture) ===
+Substituted public values: E1=10, E2=17
+Alice's secret: 6; Bob's secret: 15 (Eve knows both)
+=== Eve: with Ed25519 authentication ===
+REJECTED: Bob response signature INVALID; exchange aborted

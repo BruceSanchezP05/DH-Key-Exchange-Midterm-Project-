@@ -1,0 +1,15 @@
+Libraries: cryptography 46.0.4; PyCryptodome 3.23.0
+16 bits | trial 1 | prime 0.000317s | factor 0.000010s | generator 0.000302s | auth=YES | match=YES
+16 bits | trial 2 | prime 0.000276s | factor 0.000005s | generator 0.000276s | auth=YES | match=YES
+16 bits | trial 3 | prime 0.000397s | factor 0.000004s | generator 0.000446s | auth=YES | match=YES
+24 bits | trial 1 | prime 0.000776s | factor 0.000005s | generator 0.000731s | auth=YES | match=YES
+24 bits | trial 2 | prime 0.000771s | factor 0.000023s | generator 0.000800s | auth=YES | match=YES
+24 bits | trial 3 | prime 0.000765s | factor 0.000142s | generator 0.000894s | auth=YES | match=YES
+32 bits | trial 1 | prime 0.000905s | factor 0.001185s | generator 0.002227s | auth=YES | match=YES
+32 bits | trial 2 | prime 0.001021s | factor 0.000459s | generator 0.001447s | auth=YES | match=YES
+32 bits | trial 3 | prime 0.000897s | factor 0.000043s | generator 0.000980s | auth=YES | match=YES
+
+Saved measurements: sample_outputs\performance_results.csv
+Prime time, 16 bits: min=0.000276s; max=0.000397s; mean=0.000330s
+Prime time, 24 bits: min=0.000765s; max=0.000776s; mean=0.000771s
+Prime time, 32 bits: min=0.000897s; max=0.001021s; mean=0.000941s
